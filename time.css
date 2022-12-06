@@ -1,0 +1,64 @@
+body{
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:100vh;
+  justify-content:center;
+  background-color: darkslategrey;
+  /*background*/
+}
+
+
+h1{
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.time_korea .text,
+.time_germany .text{
+  height:20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  background: violet;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
+
+.time_korea,
+.time_germany{
+  display: flex;
+}
+
+.time_korea div,
+.time_germany div{
+  margin: 7px;
+}
+
+.time_korea span{
+  text-shadow: 3px 3px 5px orange;
+  font-size: 40px;
+  width: 100px;
+  height:80px;
+  background:darkcyan;
+  opacity: 1;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.time_germany span{
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  width: 100px;
+  height:80px;
+  background:darkcyan;
+  opacity: 1;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
